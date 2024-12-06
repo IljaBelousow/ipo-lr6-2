@@ -1,5 +1,8 @@
-w = 6
-h = 5
+import random
+
+w = random.randint(4, 8)
+h = random.randint(4, 8)
+
 spisok = [-15, -4, -2, -7, 0, 3, 5, 12, 9]
 
 matrix = []
